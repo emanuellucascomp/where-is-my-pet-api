@@ -1,10 +1,9 @@
 const express = require('express')
 const app = express()
+const index = require('./routes/routes')
 
 app.listen(3000, () => {
     console.log('Server running on port 3000')
 })
 
-app.get('/', (req, res, next) => {
-    res.send('Hello animals')
-})
+app.use('/', index)
