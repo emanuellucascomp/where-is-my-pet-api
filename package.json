@@ -4,5 +4,16 @@
   "main": "index.js",
   "repository": "https://github.com/emanuellucascomp/where-is-my-pet-api.git",
   "author": "Emanuel Lucas de Sousa e Silva <cardgameheritage@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.0",
+    "nodemon": "^2.0.1"
+  }
 }
